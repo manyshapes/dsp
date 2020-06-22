@@ -2,6 +2,12 @@
 
 >> Plot the histogram of pregnancy lengths (column prglngth)
 
+**Python Code**
+```
 hist = thinkstats2.Hist(live.prglngth, label='prglngth')
 thinkplot.Hist(hist)
 thinkplot.Config(xlabel='Pregnancy Lengths (in weeks)', ylabel='Count')
+```
+**Results**
+
+**Explanation**
