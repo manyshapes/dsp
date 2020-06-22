@@ -1,3 +1,7 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
 >> Plot the histogram of pregnancy lengths (column prglngth)
+
+hist = thinkstats2.Hist(live.prglngth, label='prglngth')
+thinkplot.Hist(hist)
+thinkplot.Config(xlabel='Pregnancy Lengths (in weeks)', ylabel='Count')
